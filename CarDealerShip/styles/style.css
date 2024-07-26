@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    font-family: "Rubik", sans-serif; 
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #3676da;
+}
+
+header{
+    background-color: #3676da;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1{
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+nav{
+    background-color: #3676da;
+    padding: 0.5em 0 ;
+    text-align: center;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0;
+    margin: 0.5em 1em;
+    font-weight: 700;
+    transition: 300ms;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: #0b4aad;
+}
+
+.first-wrapper{
+    height: 80vh;
+    display: grid;
+    place-items: center;
+    font-size: 3rem;
+    font-weight: 700;
+    background-image: url(https://th.bing.com/th/id/R.d9e6f428f4e6654934d7597004af8dc8?rik=O%2fmoRWaShWcn8Q&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+#about-us div {
+    max-width: 800px;
+    margin: 0 auto;
+}
+#about-us h2{
+    text-align: center;
+    margin-top: 80px;
+}
+#about-us p {
+    font-size: 18px;
+    color: #4b4b4b;
+}
+#video-showcase h2 {
+  text-align: center;
+   margin-top: 80px;
+
+}
+.video-container{
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 20px 0 ;
+}
+
+.video-container iframe{
+    width: 100%;
+    height: 315px;
+}
+#contact-us h2 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+label{
+    display: block;
+    margin-bottom: 8px;
+    color: #0b4aad;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: solid 1px #8b8b8b;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button{
+    background: #3676da;
+    color: #f5f5f5;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    font-weight: 700;
+    transition: 200ms;
+}
+
+button:hover{
+     background-color:#0b4aad;
+}
+
+footer{
+    background-color: #0b4aad;
+    color: #f5f5f5;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 15px ;
+}
